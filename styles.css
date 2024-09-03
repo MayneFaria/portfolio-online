@@ -1,0 +1,111 @@
+/* Estilos básicos /
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; / Azul claro /
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/ Cabeçalho /
+
+header {
+    background-color: #ff6f61; / Coral /
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/ Navegação /
+
+nav {
+    background-color: #ffcc5c; / Amarelo /
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+nav a.active {
+    text-decoration: underline;
+    color: #333;
+}
+
+/ Conteúdo principal /
+
+main {
+    padding: 20px;
+    background-color: #fff; / Branco /
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1000px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/ Formulário de Contato /
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #ff6f61; / Coral /
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ff4c3b; / Tom mais escuro de coral /
+}
+
+/ Rodapé /
+
+footer {
+    background-color: #88d8b0; / Verde claro */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+    border-top: 5px solid #ff6f61;
+}
+
+Conversar em @Daiane
